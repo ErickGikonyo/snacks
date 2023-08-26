@@ -74,7 +74,7 @@ display: grid
 }
 h1{
     margin-left: 60%;
-    font-size: x-large;
+    font-size: 60px;
     
 }
 #cake{
@@ -123,8 +123,8 @@ h2{
     opacity: 76%;
 }
 #view{
-    margin-left: 5%;
-    margin-right: 60%;
+    margin-left: 15%;
+    margin-right: 50%;
     color: rgb(230, 101, 10);
     border-color: rgb(230 101 10);
     border-radius: 3px;
@@ -132,4 +132,21 @@ h2{
     width: 150px;
     background-color:white ;
     font-weight: bold;
+}
+#third
+{
+    background-image: url("src/backgrounds/foodsBg.jpg");
+}
+#c1{
+    width: fit-content;
+    height: 150px;
+}
+#c2{
+    color: rgb(231, 101, 7);
+}
+#b1{
+    width: fit-content;
+    height: 150px;
+
+}  
 }
