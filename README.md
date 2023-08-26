@@ -1,6 +1,6 @@
-#RESTAURANT
+#RESTAURANT⛩⛩
 
-Hi,am Erick./*..author..*/
+Hi👋,am Erick😉./*..author..*/
 We all love food and we use its energy to push through the day to day activities.
  This project shows an arrangement of a restaurant, its foods, offers given, recommendations on 
  what one should be having for breakfast, lunch and drinks offered by the restaurant. 
