@@ -136,17 +136,45 @@ h2{
 #third
 {
     background-image: url("src/backgrounds/foodsBg.jpg");
+    width: 100%;
+    height: fit-content;
 }
 #c1{
     width: fit-content;
-    height: 150px;
+    height: 140px;
 }
 #c2{
     color: rgb(231, 101, 7);
 }
 #b1{
     width: fit-content;
-    height: 150px;
+    height: 140px;
 
 }  
+#five{
+    background-image: url("src/backgrounds/subscribe.jpg");
+
+}
+#t{
+    color: white;
+    margin-left: 30%;
+    margin-right: 20%;
+    font-size: x-large;
+    font-weight: bold;
+}
+#email{
+    margin-left: 30%;
+    margin-right: 20%;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(206, 191, 191);
+    color: white;
+}
+#sub{
+    background-color: rgb(231 101 7);
+    border-radius: 5px;
+    border-color: rgb(231, 101, 7);
+    color: white;
 }
