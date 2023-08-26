@@ -3,7 +3,8 @@ div
     border-radius: 3px;
     border-color: black;
     border-style: dashed;
-    background-color: #F15A29;
+height:50vh;
+
     color: black;
 
 
@@ -12,15 +13,99 @@ div
     height: fit-content;
     width: 100%;
     border-radius: 3px;
+    background-image:url("src/backgrounds/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #menu{
     margin-left: 38%;
     margin-right: 48%;
-    margin-top: 10%;
+    margin-top: 5px%;
 }
 #f1{
     margin-left: 30%;
     margin-right: 30%;
     font-size: 45px;
     color: white;
+}
+.container{
+    display: inline-block;
+    cursor: pointer;
+}
+.bar1, .bar2, .bar3{
+    width: 35px;
+    height: 5px;
+    color: rgb(255, 255, 255);
+    margin-left: 6px;
+    transition: 0.4s;
+}
+#break{
+    
+    background-size: cover;
+    background-image:url("src/foodtop/breakfast.jpg");
+    width: fit-content;
+    height: 100px;
+    margin-left: 20%;
+}
+#lunch{
+    background-image: url("src/foodtop/lunch.jpg");
+height: 100px;
+    width: 120px;
+margin-left: 35%;
+}
+#dinner{
+    background-image: url("src/foodtop/dinner.jpg");
+    background-size: cover;
+    height:100px ;
+    width: fit-content;
+    margin-left: 50%;
+}
+#second{
+    height: fit-content;
+    width: 100%;
+    background-color: white;
+display: grid
+}
+#cho{
+    margin-right: 60%;
+    position: absolute;
+    height: 120px;
+    width: fit-content;
+}
+h1{
+    margin-left: 60%;
+    
+}
+#cake{
+    margin-right: 60%;
+    margin-top: 100px;
+    height: 120px;
+    width: fit-content;  
+}
+#fast{
+ font-size: 25px;
+    margin-left: 60%
+    
+
+}
+.card{
+    background-color: aqua;
+    border-width: fit-content;
+
+}
+button{
+    background-color:white ;
+    color: rgb(230, 101, 10);
+    margin-left: 60%;
+    height: 50px;
+    width: 150px;
+    border-color: rgb(230 101 10);
+    border-radius: 3px;
+}
+#ima{
+    margin-left: 60%;
+    border-color: white;
+    border-radius: 3px;
+    border-color: aqua;
+
 }
