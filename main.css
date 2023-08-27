@@ -1,8 +1,8 @@
 div
 {
     border-radius: 3px;
-    border-color: none;
-    border-style: none;
+    border-color: black;
+    border-style: dashed;
 height:50vh;
 
     color: black;
@@ -14,7 +14,6 @@ height:50vh;
     width: 100%;
     border-radius: 3px;
     background-image:url("src/backgrounds/landing.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
 }
 #menu{
@@ -102,12 +101,6 @@ h1{
     
 
 }
-.card{
-    background-color: aqua;
-    border-width: fit-content;
-    
-
-}
 button{
     background-color:white ;
     color: rgb(230, 101, 10);
@@ -158,9 +151,7 @@ h2{
     width: fit-content;
     height: 140px;
 }
-#c2{
-    color: rgb(231, 101, 7);
-}
+
 #b1{
     width: fit-content;
     height: 140px;
@@ -170,7 +161,7 @@ h2{
     width: fit-content;
     height: 140px;
 } 
-#five{
+#eight{
     background-image: url("src/backgrounds/subscribe.jpg");
 
 }
@@ -187,7 +178,6 @@ h2{
     width: 250px;
     height: 30px;
     border-radius: 5px;
-    text-align: center;
     background-color: rgb(206, 191, 191);
     color: white;
 }
@@ -204,7 +194,7 @@ h2{
 }
 
 #me{
-    margin-left: 48%;
+    margin-left: 46%;
     margin-right: 20px;  
     color: white;
     margin-top: 20px;
