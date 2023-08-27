@@ -1,8 +1,8 @@
 div
 {
     border-radius: 3px;
-    border-color: black;
-    border-style: dashed;
+    border-color: none;
+    border-style: none;
 height:50vh;
 
     color: black;
@@ -32,12 +32,20 @@ height:50vh;
     display: inline-block;
     cursor: pointer;
 }
-.bar1, .bar2, .bar3{
+#bar1, #bar2, #bar3{
     width: 35px;
     height: 5px;
     color: rgb(255, 255, 255);
-    margin-left: 6px;
+    margin-left: 100%;
     transition: 0.4s;
+    background-color: white;
+    width: 50px;
+    margin-top: 2px;
+    
+    
+}
+#bar1{
+    margin-top: 100px;
 }
 #break{
     
@@ -60,6 +68,10 @@ margin-left: 35%;
     width: fit-content;
     margin-left: 50%;
 }
+#party{
+    margin-top: 60%px;
+    
+}
 #second{
     height: fit-content;
     width: 100%;
@@ -71,6 +83,7 @@ display: grid
     position: absolute;
     height: 150px;
     width: fit-content;
+
 }
 h1{
     margin-left: 60%;
@@ -92,6 +105,7 @@ h1{
 .card{
     background-color: aqua;
     border-width: fit-content;
+    
 
 }
 button{
@@ -139,6 +153,7 @@ h2{
     width: 100%;
     height: fit-content;
 }
+
 #c1{
     width: fit-content;
     height: 140px;
@@ -150,7 +165,11 @@ h2{
     width: fit-content;
     height: 140px;
 
-}  
+} 
+#p1{
+    width: fit-content;
+    height: 140px;
+} 
 #five{
     background-image: url("src/backgrounds/subscribe.jpg");
 
@@ -188,7 +207,7 @@ h2{
     margin-left: 48%;
     margin-right: 20px;  
     color: white;
-    
+    margin-top: 20px;
     font-size: x-large;
 
 }
